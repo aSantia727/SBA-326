@@ -10,59 +10,63 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-    img{}
-    p{font-size: 18px;}
+    p{font-size: 25px;}
+    .card{margin: 15px;}
+    img{overflow: hidden; object-fit: cover;}
   </style>
 </head>
-<body style="max-width:  1440px;">
-  <div class="container text-center gap-4">
-    <div id="secA" class="row" style="height:930px;width: 1300px; background-color: #f5f5f5; padding-top: 60px;padding-right:130px;padding-bottom:140px; padding-left:130px;"> 
-      <div id="secB" class="row" style="width: 220px;margin-right: 30px;">
+<body style="max-width:  1440px; min-width: 500px;">
+  <div class="container text-center">
+    <div id="secA" class="row" style="max-width: 1300px; background-color: #f5f5f5; padding-top: 60px;padding-right:130px;padding-bottom:60px; padding-left:130px;"> 
+      <div id="secB" class="row" style="width: 220px;">
         <div class="col">
-          <div class="col rounded-4" style="width: 220px; height: 375px;background-color: #faeee2; margin-bottom: 30px;">
-            Create and schedule content quicker.
+          <div class="card rounded-4" style="width: 220px; min-height: 375px ;background-color: #faeee2;">
+            <p style="font-size:30px;">Create and schedule content</p><p style="font-size: 40px; color: #7651dc;">quicker.</p>
             <img class="img-fluid" src="assets\images\illustration-create-post.webp"  alt="">
           </div>
-          <div class="col rounded-4" style="width: 220px;background-color: #ffcc69; height: 390px; margin-top: 30px;">
-            Write your content using AI.
+          <div class="card rounded-4" style="width: 220px;min-height: 390px;background-color: #ffcc69;">
+            <p> your content using AI.</p>
             <img class="img-fluid" src="assets\images\illustration-ai-content.webp" style=" object-fit: cover" alt="">
           </div>
         </div>
       </div>
-
-      <div id="secC" class="row" style="max-width:750px;margin-bottom: 30px;"> 
+      <div id="secC" class="col" style="margin-left: 50px;"> 
         <div id="secD" class="row">
-          <div id="secE" class="col" style="margin-bottom: 30px;">
-            <div class="col rounded-4 " style="width: 490px;height: 290px;background-color: hsl(254, 88%, 90%);margin-bottom: 30px;">
-              <p>Social Media 10x Faster with AI</p>
+          <div id="secE" class="col">
+            <div class="card rounded-4 " style="width: 490px;height: 290px;background-color: #7651dc;">
+              <p style="font-size: 40px; color: white;">Social Media 10x Faster with AI</p>
               <img src="assets\images\illustration-five-stars.webp" alt="">
-              <p>Over 4,000 5-star reviews</p>
+              <p style="color: white;">Over 4,000 5-star reviews</p>
             </div>
-            <div id="secF" class="row margin-bottom:30px;">
-              <div class="col rounded-4 bg-white " style="height: 220px; width: 230px;">
+            <div id="secF" class="col">
+              <div class="row">
+              <div class="card rounded-4 bg-white h-220" style="height: 220px; width: 230px;">
                 <img class="img-fluid" src="assets\images\illustration-multiple-platforms.webp" alt="">
                 <p>Manage multiple accounts and platforms.</p>
               </div>
-              <div class="col rounded-4 " style="background-color: #ffcc69;width: 230px; height: 220px;">
+              <div class="card rounded-4" style="background-color: #ffcc69;width: 230px; height: 220px;">
                 <p>Maintain a consistent posting schedule.</p>
                 <img class="img-fluid" src="assets\images\illustration-consistent-schedule.webp" alt="">
               </div>
             </div>
+            </div>
           </div>
-          <div class="col rounded-4" style="max-width:230px;height:530px;background-color: #dcd1fc;">
+          <div class="col" style="margin-left: -30px;margin-right: 10px;">
+          <div class="card rounded-4" style="max-width:230px;height:530px;background-color: #dcd1fc;">
             <p>Schedule to social media.</p> 
             <img class="img-fluid" style="object-fit: cover;" src="assets\images\illustration-schedule-posts.webp" alt="">
             <p>Optimize post timings to publish content at the perfect time for your audience.</p> 
           </div>
+          
         </div>
         <div id="secG" class="row">
-          <div class="col bg-white rounded-4" style="max-width: 220px; height: 230px;margin-right: 30px;">
-            <p>56%</p> <p>faster audience growth</p>
+          <div class="card bg-white rounded-4" style="max-width: 220px; height: 230px;">
+            <p style="font-size: 50px">>56%</p> <p style="font-size: 15px">faster audience growth</p>
             <img class="img-fluid"src="assets\images\illustration-audience-growth.webp" alt="" style="object-fit: cover;">
           </div>
-          <div class="col rounded-4" style="background-color:#7651dc;width: 490px;height: 220px;;">
-            <img class="img-fluid" src="assets\images\illustration-grow-followers.webp" alt="" style="height: 100%;;object-fit: cover;">
-            <p>Grow followers with non-stop content.</p>
+          <div class="card rounded-4" style="background-color:#7651dc;width: 490px;height: 220px;;">
+            <div></div><img class="img-fluid" src="assets\images\illustration-grow-followers.webp" alt="" style="height: 100%;;object-fit: cover;">
+            <p style="color: white; font-size: 30px; text-align: left;">Grow followers with non-stop content.</p>
           </div>
         </div>
       </div>
